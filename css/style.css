@@ -1,4 +1,5 @@
 .container {
+    font-family: "Poppins", sans-serif;
     max-width: 1126px;
     margin: 0 auto;
     padding: 0 15px;
@@ -35,17 +36,12 @@ a.menu-link {
     font-size: 14px;
     text-decoration: none;
     color: #2f281e;
-    font-family: "Poppins", sans-serif;
     font-weight: 400;
     line-height: 28px;
 }
 
-.menu-button-user-login {
-    padding-right: 15px;
-}
-
-button.user-login {
-    font-family: "Poppins", sans-serif;
+.user-login,
+button.user-registration {
     font-weight: 600;
     font-size: 16px;
     color: #173a56;
@@ -55,32 +51,26 @@ button.user-login {
     height: 46px;
     background: none;
     cursor: pointer;
+    margin-right: 15px;
 }
 
 button.user-registration {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    border-radius: 4px;
-    width: 110px;
-    height: 46px;
     background: #f90;
     color: #fff;
     border: none;
-    cursor: pointer;
 }
 
 /*  */
 
+.superpowers-info {
+    display: flex;
+}
+
 .superpowers-title {
-    font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 44px;
     line-height: 123%;
     color: #2f281e;
-}
-
-.superpowers-info {
-    display: flex;
 }
 
 .superpowers-description {
@@ -88,7 +78,6 @@ button.user-registration {
 }
 
 .superpowers-description p {
-    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 156%;
@@ -98,7 +87,7 @@ button.user-registration {
 ul.superpowers-started {
     display: flex;
     list-style: none;
-    padding-left: 0px;
+    padding-left: 0;
 }
 
 li.superpowers-started-button {
@@ -107,7 +96,6 @@ li.superpowers-started-button {
 
 a.superpowers-get-started {
     display: inline-block;
-    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 700;
     border-radius: 4px;
@@ -124,7 +112,7 @@ li.superpowers-started-button {
 
 .superpowers-watch-video {
     display: inline-block;
-    font-family: "Poppins", sans-serif;
+    
     font-size: 16px;
     font-weight: 600;
     color: #FF9900;
@@ -141,7 +129,6 @@ li.superpowers-started-button {
 }
 
 h2.tools-title {
-    font-family: "Poppins", sans-serif;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -159,15 +146,13 @@ h2.tools-title {
 }
 
 .first-tests-title {
-    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 22px;
     color: #2f281e;
-    margin-bottom: 13px;
+    margin: 0 0 13px 0;
 }
 
 .first-tests-description {
-    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 162%;
@@ -181,15 +166,11 @@ h2.tools-title {
 }
 
 .tools-subscribe a {
-    font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 16px;
     color: #fff;
     background: #FF9900;
     padding: 15px 32px 14px 34px;
-    font-weight: 700;
-    font-size: 16px;
-    color: #fff;
     text-decoration: none;
     border-radius: 4px;
 }
@@ -213,7 +194,6 @@ section.marketers-info {
 
 .effortless-validation-description h2,
 .marketers-info-description h2 {
-    font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 36px;
     color: #2f281e;
@@ -222,19 +202,9 @@ section.marketers-info {
 
 .effortless-validation-description p,
 .marketers-info-description p {
-    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #544837;
-}
-
-.effortless-validation-description b,
-.marketers-info-description b {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 162%;
-    color: #2f281e;
 }
 
 .images-effortless-validation-info,
@@ -294,7 +264,7 @@ ul.product-managers-energy img {
 
 /* */
 
-.line hr {
+.line {
     margin-top: 146px;
     border: 0;
     height: 1px;
@@ -330,23 +300,23 @@ nav.footer-menu-about {
 ul.footer-about li a,
 ul.footer-term li a {
     text-decoration: none;
-    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 219%;
     color: #544837;
 }
 
-.footer-sign a {
+.registration {
     background-color: #FF9900;
     padding: 8px 15px 7px 15px;
     border-radius: 4px;
-    font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 16px;
     text-align: center;
     color: #fff;
     text-decoration: none;
+    border: none;
+    cursor: pointer;
 }
 
 .footer-sign-input-emain {
